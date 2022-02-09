@@ -44,7 +44,7 @@ console.log();
 
 console.log(`Olá, meu nome é Phia, sou uma desertora da terra de Lork,
 
-acabei sendo expulsa depois de contar ao regente queplanejavam matar nosso rei,
+acabei sendo expulsa depois de contar ao regente que planejavam matar nosso rei,
 
 sendo que todo o plano foi arquitetado por ele, no fim acabei sendo condenada ao exilio
 
@@ -194,4 +194,36 @@ else if(perg3 == 3){
     console.log()
     console.log(status)
     console.log()
+}
+
+console.log();
+
+console.log(`Finalmente consegui voltar a estrada, logo mais a frente está a Grande Divisora, uma 
+
+montanha enorme que divide duas das maiores cidades de Flauberth.
+
+Para passar por ela tem duas opções: 
+
+1. Pagar uma quantia de dinheiro aos anões para usar o túnel subterraneo construido por eles;
+
+2. Dar a volta na montanha;`);
+
+console.log();
+
+while (true) {
+    let escolha = +prompt(`Qual opção você escolhe? `);
+    console.log('')
+    status.fome = status.fome + 2;
+    console.log();
+    if (pergunta == 1 || pergunta == 2 ) {
+        if (pergunta == 1) {
+
+            console.log('');
+            break;
+        } else {
+            console.log();
+        }
+    } else {
+        console.log('Você precisa escolher entre sim ou não');
+    }
 }
